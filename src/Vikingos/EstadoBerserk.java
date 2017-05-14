@@ -4,10 +4,12 @@ public class EstadoBerserk implements Estado{
 	private int cuentacalma=0;
 	private String estado="BERSERK";
 
-	
-	
 	public String getEstado(){
 		return this.estado;
+	}
+	
+	public int getDefensa(int defenza) {
+		return defenza/2;
 	}
 	
 	
@@ -21,7 +23,6 @@ public class EstadoBerserk implements Estado{
 
 	@Override
 	public Estado serAtacado(int salud) {
-		
 		return this;
 	}
 	

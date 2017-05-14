@@ -8,6 +8,8 @@ public interface Estado {
 	public String getEstado();
 
 	public int atacar(int fuerza);
+
+	public int getDefensa(int defenza);
 	
 
 }

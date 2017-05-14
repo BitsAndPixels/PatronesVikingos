@@ -6,6 +6,10 @@ public class EstadoNormal implements Estado {
 	public String getEstado(){
 		return this.estado;
 	}
+	
+	public int getDefensa(int defenza) {
+		return defenza;
+	}
 
 	@Override
 	public Estado calmarse() {
